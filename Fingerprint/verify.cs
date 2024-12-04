@@ -32,7 +32,7 @@ namespace Fingerprint
 
                 using (HttpClient client = new HttpClient())
                 {
-                    HttpResponseMessage response = await client.GetAsync("http://localhost/api/fingerprint/get");
+                    HttpResponseMessage response = await client.GetAsync("https://brgynavarro.site/api/fingerprint/get");
 
                     Console.WriteLine(response.Content.ReadAsStringAsync());
 
@@ -75,7 +75,7 @@ namespace Fingerprint
                                     string jsonVerification = JsonConvert.SerializeObject(verificationData);
                                     StringContent httpContent = new StringContent(jsonVerification, Encoding.UTF8, "application/json");
 
-                                    HttpResponseMessage verificationResponse = await client.PostAsync("http://localhost/api/fingerprint/verified", httpContent);
+                                    HttpResponseMessage verificationResponse = await client.PostAsync("https://brgynavarro.site/api/fingerprint/verified", httpContent);
 
                                     if (verificationResponse.IsSuccessStatusCode)
                                     {

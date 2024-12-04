@@ -85,7 +85,7 @@ namespace Fingerprint
         private async Task<List<Item>> FetchItemsFromApi()
         {
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost/api/fingerprint/staffs");
+            client.BaseAddress = new Uri("https://brgynavarro.site/api/fingerprint/staffs");
 
             HttpResponseMessage response = await client.GetAsync("");
             Console.WriteLine(response.IsSuccessStatusCode);

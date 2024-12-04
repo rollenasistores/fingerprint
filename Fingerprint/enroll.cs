@@ -86,7 +86,7 @@ namespace Fingerprint
                                     using (HttpClient client = new HttpClient())
                                     {
                                         // Set full URL directly in the PostAsync method
-                                        string url = "http://localhost/api/fingerprint/enroll";
+                                        string url = "https://brgynavarro.site/api/fingerprint/enroll";
                                         client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                                         HttpContent content = new StringContent(jsonPayload, Encoding.UTF8, "application/json");
 

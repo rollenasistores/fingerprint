@@ -43,7 +43,7 @@
             // fImage
             // 
             this.fImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.fImage.Location = new System.Drawing.Point(39, 55);
+            this.fImage.Location = new System.Drawing.Point(10, 12);
             this.fImage.Name = "fImage";
             this.fImage.Size = new System.Drawing.Size(246, 252);
             this.fImage.TabIndex = 0;
@@ -51,14 +51,14 @@
             // 
             // Prompt
             // 
-            this.Prompt.Location = new System.Drawing.Point(302, 55);
+            this.Prompt.Location = new System.Drawing.Point(273, 12);
             this.Prompt.Name = "Prompt";
             this.Prompt.Size = new System.Drawing.Size(307, 20);
             this.Prompt.TabIndex = 1;
             // 
             // statusText
             // 
-            this.statusText.Location = new System.Drawing.Point(302, 81);
+            this.statusText.Location = new System.Drawing.Point(273, 38);
             this.statusText.Multiline = true;
             this.statusText.Name = "statusText";
             this.statusText.Size = new System.Drawing.Size(307, 226);
@@ -67,7 +67,7 @@
             // status_label
             // 
             this.status_label.AutoSize = true;
-            this.status_label.Location = new System.Drawing.Point(36, 360);
+            this.status_label.Location = new System.Drawing.Point(7, 273);
             this.status_label.Name = "status_label";
             this.status_label.Size = new System.Drawing.Size(56, 13);
             this.status_label.TabIndex = 3;
@@ -75,7 +75,7 @@
             // 
             // StartScan
             // 
-            this.StartScan.Location = new System.Drawing.Point(302, 350);
+            this.StartScan.Location = new System.Drawing.Point(273, 307);
             this.StartScan.Name = "StartScan";
             this.StartScan.Size = new System.Drawing.Size(307, 44);
             this.StartScan.TabIndex = 5;
@@ -91,7 +91,7 @@
             // 
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(630, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(589, 24);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -99,7 +99,7 @@
             // 
             this.staff_box.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.staff_box.FormattingEnabled = true;
-            this.staff_box.Location = new System.Drawing.Point(302, 313);
+            this.staff_box.Location = new System.Drawing.Point(273, 270);
             this.staff_box.Name = "staff_box";
             this.staff_box.Size = new System.Drawing.Size(307, 21);
             this.staff_box.TabIndex = 7;
@@ -109,7 +109,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(630, 407);
+            this.ClientSize = new System.Drawing.Size(589, 360);
             this.Controls.Add(this.staff_box);
             this.Controls.Add(this.StartScan);
             this.Controls.Add(this.status_label);
